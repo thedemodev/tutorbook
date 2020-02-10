@@ -1,0 +1,17 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awesome-new-gunn-schedule-package": "^1.0.2",
+    "firebase-admin": "^8.9.1",
+    "firebase-functions": "^3.3.0"
+  }
+}
