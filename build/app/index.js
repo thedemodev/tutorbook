@@ -58831,8 +58831,13 @@ var Tutorbook = function () {
         this.version = '0.0.1'; // TODO: Each change released to production (via
         // CI) should have a corresponding GitHub tag & release denoted here.
         this.location = {
-            name: 'Any'
+            name: 'Greene Library',
+            id: 'gh3jFbjry0DE8WcQqAGi'
         };
+        this.locations = [this.location, {
+            name: 'Paly Peer Tutoring Center',
+            id: 'fcKWyRWy124H4M34mS1r'
+        }];
         this.test = false;
         this.listeners = []; // Unsubscribe to onSnapshot listeners on signOut
         this.functionsURL = 'https://us-central1-tutorbook-779d8.cloudfunctio' + 'ns.net/';
