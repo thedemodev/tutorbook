@@ -58831,8 +58831,13 @@ var Tutorbook = function () {
         this.version = '0.0.1'; // TODO: Each change released to production (via
         // CI) should have a corresponding GitHub tag & release denoted here.
         this.location = {
-            name: 'Any'
+            name: 'Fairmeadow Library',
+            id: 'IVYL0RYSqXcLPxZoNGss'
         };
+        this.locations = [this.location, {
+            name: 'JLS Library',
+            id: 'WfAGnrtG87CJsYRnOmwn'
+        }];
         this.test = false;
         this.listeners = []; // Unsubscribe to onSnapshot listeners on signOut
         this.functionsURL = 'https://us-central1-tutorbook-779d8.cloudfunctio' + 'ns.net/';
