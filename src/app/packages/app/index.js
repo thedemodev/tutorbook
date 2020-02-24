@@ -46,8 +46,16 @@ class Tutorbook {
         this.version = '0.0.1'; // TODO: Each change released to production (via
         // CI) should have a corresponding GitHub tag & release denoted here.
         this.location = {
-            name: 'Any',
+            name: 'Fletcher Library',
+            id: 'IchZg5QANcmrVDQemYU2',
         };
+        this.locations = [this.location, {
+            name: 'Gunn Academic Center',
+            id: 'NJp0Y6wyMh2fDdxSuRSx',
+        }, {
+            name: 'JLS Library',
+            id: 'WfAGnrtG87CJsYRnOmwn',
+        }];
         this.test = false;
         this.listeners = []; // Unsubscribe to onSnapshot listeners on signOut
         this.functionsURL = 'https://us-central1-tutorbook-779d8.cloudfunctio' +
